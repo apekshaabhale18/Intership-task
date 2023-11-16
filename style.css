@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page
+{
+    color:#FFFFFF;
+    background-color: #000000;
+    font-family: 'Didact Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.hero
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/rs-sbg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    
+}
+.header
+{
+    height: 95px;
+    background-color:#000000 ;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li
+{
+    display: inline-block;
+    margin: 38px 15px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.30px;
+    color: #CFCFCF;
+ 
+
+}
+.tf{
+font-size: 30px;
+margin: 10px;
+font-weight:bolder;
+}
+.fo
+{
+    font-size: 15px;
+}
+.content
+{
+  width: 40%;
+  padding:8% 30%;
+}
+.co
+{
+    width: 100%;
+    max-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url(./img/div.ttm-row-wrapper-bg-layer.png);
+  
+
+}
+.co .right img{
+    height: 500px;
+    margin: 20px 40px;
+}
+.ico
+{
+    display: flex;
+    padding: 50px 10%;
+}
+.left
+{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.cs
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.cs p
+{
+    margin:15px 0;
+}
+.cg
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+.cg  .imgc img 
+{
+    width: 31%;
+    margin: 0 5px;
+    height:260px;
+}
+.smt
+{
+    text-align: center;
+}
+.sst
+{
+    margin:0 0 15px 0;
+    font-weight: bolder;
+    text-align: center;
+}
+.outer
+{
+    border-bottom:1px solid #222222;
+  
+}
+.cz
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+   
+    
+}
+.cz img
+{
+    width: 31%;
+    height:150px;
+    margin:10px 5px;
+}
+
+.cy
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.cy .imgc img{
+    width: 15%;
+    margin: 15px 10px;
+}
+.footer
+{
+    width: 100%;
+   
+}
+.footer ul
+{
+    list-style-image: url(./img/ListItem.png);
+}
+.tit
+{
+    margin: 40px 0;
+    border-bottom:1px solid #222222;
+}
+.fcontent
+{
+    width: 100%;
+    max-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url(./img/div.ttm-row-wrapper-bg-layer.png);
+}
+.fcontent .ifc
+{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    align-items: center;
+    background-color: #000000;
+
+   border-bottom:1px solid #CFCFCF;
+}
+.fcontent .ifc .f img
+{
+    width: 200px;
+    height: 63px;  
+}
+.fcontent .ifc .s
+{
+    display: flex;
+    margin: 0 50px;
+  
+}
+.fcontent .ifc .s .fl
+{
+    margin:30px -50px;
+
+}
+.fcontent .ifc .s .sl
+{
+    margin:30px 90px;
+
+}
+.fcontent .ifc .t img
+{
+   display: block;
+   margin: 15px 0;
+}
+.fct{
+font-weight:bolder;
+}
+.ff
+{
+    width: 70%;
+    margin: 0 auto;
+    padding:10px 40px;
+    align-items: center;
+    background-color: #000000;  
+}
+.ffi
+{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.cc
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;  
+}
+.cc input[type="text"]
+{
+    width: 40%;
+    background-color: transparent;
+    color: #CFCFCF;
+    padding:15px 5px ;
+    margin: 10px;
+    border:1 solid #777777;
+}
+.cc input[type="button"]
+{
+    background-color: transparent;
+    margin: 10px;
+    color: #CFCFCF;
+    padding:10px 15px ;
+
+}
+.ck
+{
+    display: flex;
+    width: 100%;
+    background-image: url(img/div.ttm-row-wrapper-bg-layer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ck .ckl,.ck .ckr
+{
+    width: 50%;
+}
+.ck img{
+    width: 100%;
+}
+.ckc
+{
+    padding: 40px 40px;
+}
+.ckc h1
+{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.ckc .pro
+{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.ckc .pro .img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 45px;
+    font-weight: bolder;
+    border: 1px solid #777777;
+}
+.ck .ckf
+{
+    width: 80%;
+    margin: 80px 0 0 100px ;
+}
+.ck .ckf .fea img
+{
+    width: 30%;
+}
+
+
+
